@@ -44,6 +44,12 @@ header {
     font-weight: 700;
 }
 
+.logo-img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
 .nav-links {
     display: flex;
     gap: 30px;
@@ -62,7 +68,7 @@ header {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #52C8FF 0%, #005CD5 100%);
     color: white;
     padding: 120px 0 80px;
     display: flex;
@@ -150,7 +156,7 @@ header {
 .phone-screen {
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #52C8FF 0%, #005CD5 100%);
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -174,6 +180,12 @@ header {
     justify-content: center;
     margin: 0 auto 30px;
     position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timer-circle::before {
@@ -267,7 +279,7 @@ header {
 /* Download Section */
 .download {
     padding: 100px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #52C8FF 0%, #005CD5 100%);
     color: white;
     text-align: center;
 }
